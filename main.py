@@ -17,7 +17,7 @@ label_t.pack()
 title_v.pack()
 
 #プルダウン式の言語パーツ
-list = ('Java', 'VBA', 'Python', 'javaScript')
+list = ('Java', 'VBA', 'Python', 'javaScript', 'PHP', 'C', 'Django', 'Laravel', 'SQL')
 lang = ttk.Combobox(root, values=list)
 label_l = tkinter.Label(root, text="言語区分")
 label_l.pack()
